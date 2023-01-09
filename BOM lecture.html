@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bom Lecture</title>
+    <style>
+        body, html {
+            height: 100%;
+        }
+        .attachImg{
+            background-image: url("img/worldfamousjavascript.jpeg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+
+<script>
+
+  'use strict';
+
+  // Examples of BOM functions we have used:
+  //       -alert();
+  //       -confirm;
+  //       -prompt();
+
+
+  // ----- LOCATION -----
+
+  // redirect browser to google.com
+
+  // window.location = 'http://www.google.com';
+
+  // location.reload(); // reload page, possibly from cache
+
+
+
+
+
+
+
+
+
+  // ----- INTERVALS AND TIMEOUTS -----
+
+  // setInterval(function (){console.log("ლ(ಠ_ಠ ლ)"
+  // )}, 1000)
+
+
+
+
+
+
+
+
+
+
+
+
+ // ----- Set Interval Curriculm Example -----
+  // this code will produce a console log every second
+  // when count >= max, the interval is cancelled, and the logging will stop
+
+  // var count = 0;
+  // var max = 5;
+  // var interval = 1000; // interval time in milliseconds
+  //
+  // var intervalId = setInterval(function () {
+  //   if (count >= max) {
+  //     clearInterval(intervalId);
+  //     console.log('All done');
+  //   } else {
+  //     count++;
+  //     console.log('Repeating this line ' + count);
+  //   }
+  // }, interval);
+
+
+
+
+
+
+
+
+
+
+
+
+// ----- Set Timeout Curriculm Example -----
+
+  var delay = 5000; // delay time in milliseconds
+  //
+  var timeoutId = setTimeout(function () {
+      alert('behold!');
+      document.querySelector("body").classList.add("attachImg")
+  }, delay);
+
+  // to cancel the timeout, you can call
+  // clearTimeout(timeoutId);
+  // prior to the delay expiring
+
+</script>
+</body>
+</html>
